@@ -10,7 +10,7 @@ const App = () => {
   const threshold = 20;
 
   // Determine color based on temperature threshold
-  const temperatureColor = weather.temperature > threshold ? 'red' : 'blue';
+  const temperatureColor = weather.temperature > threshold ? 'rgb(255, 0, 0)' : 'blue';
 
   return (
     <span style={{ fontFamily: 'Arial, sans-serif', padding: '20px', border: '1px solid #ccc', maxWidth: '300px', margin: 'auto' }}>
