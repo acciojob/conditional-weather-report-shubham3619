@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <span>
-      <p style={{ color: temperatureColor }}>temperature: {weather.temperature}</p>
+      <p style={{ color: temperatureColor }}>Temperature: {weather.temperature}</p>
       <p style={{ color: temperatureColor }}>conditions: {weather.conditions}</p>
     </span>
   )
